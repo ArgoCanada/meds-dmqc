@@ -1,0 +1,49 @@
+""
+"Cycle number";0;0
+"Session number";0;0
+"Float's hour";20;20
+"Float's minute";4;12
+"Float's second";27;13
+"Float's day";9;9
+"Float's month";2;2
+"Float's year";21;21
+"Float serial number";20040;20040
+"----- ICE PARAMETERS - Next Cycle-----";;
+"--- ICE DETECTION ---";;
+"IC0 - Nb of days without emergence (0=No Ice Detection)";10;10
+"IC1 - Nb of days before force an emergence (days)";90;90
+"--- ISA ---";;
+"IC2 - Number of ISA detection before an ice confirmation";3;3
+"IC3 - Start pressure (dbar)";40;40
+"IC4 - Stop pressure (dbar)";10;10
+"IC5 - Temperature median (°C)";-1,6;-1,6
+"IC6 - Deceleration treshold (dbar)";150;150
+"IC7 - Scrutation pressure delay on ascent (minutes)";2;2
+"IC8 - Stabilization pressure on ascent (dbars)";4;4
+"IC9 - Pumping activation delay on ascent (csec)";500;500
+"--- SATELLITE MASK ---";;
+"IC10 - GPS session timeout (minutes)";5;5
+"IC11 - 1st Iridium lock timeout (minutes)";10;10
+"--- ASCENT HANGING ---";;
+"IC12 - Confirmation delay (minutes)";80;80
+"--- BUOYANCY INVERSION ---";;
+"IC13 - Offset pressure (dbars)";20;20
+"IC14 - EV volume per action (cm3)";9;9
+"IC15 - EV volume max (cm3)";900;900
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
