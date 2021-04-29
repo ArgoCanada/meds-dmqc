@@ -2,6 +2,10 @@
 
 from pathlib import Path
 from netCDF4 import Dataset
+
+import numpy as np
+import matplotlib.pyplot as plt
+
 import bgcArgoDMQC as bgc
 
 # This script will be used to DMQC a given float, as of the current date (feb
@@ -30,3 +34,23 @@ print(traj.variables.keys())
 
 # calculate gains
 woa_gains = syn.calc_gains(ref='WOA')
+
+# make some plots
+g_prof = syn.plot('qcprofiles', varlist=['PSAL', 'TEMP', 'DOXY'])
+syn.clean()
+g_prof2 = syn.plot('qcprofiles', varlist=['PSAL', 'TEMP', 'DOXY'])
+
+g_gain = syn.plot('gain', ref='WOA')
+
+DOXY_ADJUSTED = syn.DOXY * np.nanmean(woa_gains)
+# add to float dict
+syn.__floatdict__['DOXY_ADJUSTED_CALCULATED'] = DOXY_ADJUSTED
+syn.assign(syn.__floatdict__)
+syn.to_dataframe()
+
+fig, ax = plt.subplots()
+syn.plot('profiles', varlist=['DOXY'], axes=ax, color=plt.cm.Blues(0.25))
+syn.plot('profiles', varlist=['DOXY_ADJUSTED'], axes=ax, color=plt.cm.Blues(0.5))
+syn.plot('profiles', varlist=['DOXY_ADJUSTED_CALCULATED'], axes=ax, color=plt.cm.Blues(0.75))
+
+plt.show()
