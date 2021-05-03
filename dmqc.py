@@ -40,7 +40,12 @@ g_prof = syn.plot('qcprofiles', varlist=['PSAL', 'TEMP', 'DOXY'])
 syn.clean()
 g_prof2 = syn.plot('qcprofiles', varlist=['PSAL', 'TEMP', 'DOXY'])
 
+g_prof.fig.savefig(Path('figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_prof2.fig.savefig(Path('figures/{}/qcprofiles_cleaned.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
 g_gain = syn.plot('gain', ref='WOA')
+
+g_gain.fig.savefig(Path('figures/{}/gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 DOXY_ADJUSTED = syn.DOXY * np.nanmean(woa_gains)
 # add to float dict
@@ -49,8 +54,16 @@ syn.assign(syn.__floatdict__)
 syn.to_dataframe()
 
 fig, ax = plt.subplots()
-syn.plot('profiles', varlist=['DOXY'], axes=ax, color=plt.cm.Blues(0.25))
-syn.plot('profiles', varlist=['DOXY_ADJUSTED'], axes=ax, color=plt.cm.Blues(0.5))
-syn.plot('profiles', varlist=['DOXY_ADJUSTED_CALCULATED'], axes=ax, color=plt.cm.Blues(0.75))
+syn.plot('profiles', varlist=['DOXY'], axes=ax, color=plt.cm.GnBu_r(0.1), label=None)
+syn.plot('profiles', varlist=['DOXY_ADJUSTED'], axes=ax, color=plt.cm.GnBu_r(0.35), label=None)
+syn.plot('profiles', varlist=['DOXY_ADJUSTED_CALCULATED'], axes=ax, color=plt.cm.GnBu_r(0.6), label=None)
 
-plt.show()
+ax.plot([np.nan], [np.nan], color=plt.cm.GnBu_r(0.1), label='Raw')
+ax.plot([np.nan], [np.nan], color=plt.cm.GnBu_r(0.35), label='Adjusted')
+ax.plot([np.nan], [np.nan], color=plt.cm.GnBu_r(0.6), label='Python Package')
+
+ax.legend(loc=3, fontsize=8)
+
+fig.savefig(Path('figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
+plt.close('all')
