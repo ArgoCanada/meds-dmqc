@@ -47,7 +47,7 @@ figsize = (g_prof.fig.get_figwidth(), g_prof.fig.get_figheight())
 
 g_gain = syn.plot('gain', ref='WOA')
 
-g_gain.fig.savefig(Path('figures/{}/gainplot_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_gain.fig.savefig(Path('figures/{}/gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 DOXY_ADJUSTED = syn.DOXY * np.nanmean(woa_gains)
 # add to float dict
@@ -67,7 +67,7 @@ ax.plot([np.nan], [np.nan], color=plt.cm.GnBu_r(0.6), label='Python Package')
 ax.legend(loc=3, fontsize=8)
 
 fig.set_size_inches(figsize[0]/3, figsize[1])
-fig.savefig(Path('figures/{}/gainprofiles_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+fig.savefig(Path('figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # this float has one anomalous point of surface oxygen - investigate that profile
 surf_sat = syn.__WOAfloatref__[:,2]
@@ -108,7 +108,7 @@ axes[1].set_xlabel('SAGE WOA % Sat')
 axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
 
 fig.set_size_inches(figsize[0]*4/3, figsize[1])
-fig.savefig(Path('figures/{}/sage_comparison_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+fig.savefig(Path('figures/{}/sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # remove the anomalous point of surface oxygen and recalculate
 iy = np.logical_and(syn.__floatdict__['O2Sat'] > 110, syn.__floatdict__['CYCLE_GRID'] == syn.CYCLE[ix][0])
@@ -117,7 +117,7 @@ syn.__floatdict__['O2Sat'][iy] = np.nan
 new_gains = syn.calc_gains(ref='WOA')
 new_gainplot = syn.plot('gain', ref='WOA')
 
-new_gainplot.fig.savefig(Path('figures/{}/new_gainplot_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+new_gainplot.fig.savefig(Path('figures/{}/new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 sage_factor = py_float / sage_float
 potential_correct_gain = sage_factor * new_gains
@@ -127,7 +127,7 @@ syn.__floatdict__['O2Sat'] = 100*syn.__floatdict__['DOXY'] / bgc.unit.oxy_sol(sy
 new_new_gains = syn.calc_gains(ref='WOA')
 new_new_gainplot = syn.plot('gain', ref='WOA')
 
-new_new_gainplot.fig.savefig(Path('figures/{}/new_new_gainplot_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+new_new_gainplot.fig.savefig(Path('figures/{}/new_new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 py_woa = syn.__WOAref__
 py_float = syn.__WOAfloatref__[:,2]
@@ -153,6 +153,6 @@ axes[1].set_xlabel('SAGE WOA % Sat')
 axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
 
 fig.set_size_inches(figsize[0]*4/3, figsize[1])
-fig.savefig(Path('figures/{}/new_sage_comparison_20210621.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+fig.savefig(Path('figures/{}/new_sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 plt.show()
