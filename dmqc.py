@@ -73,15 +73,15 @@ fig.savefig(Path('figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_in
 surf_sat = syn.__WOAfloatref__[:,2]
 ix = surf_sat > 110
 print(sum(ix))
-g = syn.plot('profiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1)
-g = syn.plot('qcprofiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1, axes=g.axes[0])
-g.axes[0].set_ylim((250,0))
+# g = syn.plot('profiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1)
+# g = syn.plot('qcprofiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1, axes=g.axes[0])
+# g.axes[0].set_ylim((250,0))
 
-g.fig.set_size_inches(figsize[0]/3, figsize[1])
+# g.fig.set_size_inches(figsize[0]/3, figsize[1])
 # g.fig.savefig(Path('figures/{}/anom_profile.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # load in comparison with SAGE output
-sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/4900497_sagedata.mat')
+sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/{}_sagedata.mat'.format(wmo_id))
 sagedata = loadmat(sagefile)
 
 sage_float = sagedata['SURF_SAT'][:,1]
@@ -111,7 +111,8 @@ fig.set_size_inches(figsize[0]*4/3, figsize[1])
 fig.savefig(Path('figures/{}/sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # remove the anomalous point of surface oxygen and recalculate
-iy = np.logical_and(syn.__floatdict__['O2Sat'] > 110, syn.__floatdict__['CYCLE_GRID'] == syn.CYCLE[ix][0])
+iy = syn.__floatdict__['O2Sat'] > 110
+# iy = np.logical_and(syn.__floatdict__['O2Sat'] > 110, syn.__floatdict__['CYCLE_GRID'] == syn.CYCLE[ix][0])
 syn.__floatdict__['O2Sat'][iy] = np.nan
 
 new_gains = syn.calc_gains(ref='WOA')
@@ -122,7 +123,7 @@ new_gainplot.fig.savefig(Path('figures/{}/new_gainplot.png'.format(wmo_id)), dpi
 sage_factor = py_float / sage_float
 potential_correct_gain = sage_factor * new_gains
 
-syn.__floatdict__['O2Sat'] = 100*syn.__floatdict__['DOXY'] / bgc.unit.oxy_sol(syn.__floatdict__['PSAL'], syn.__floatdict__['TEMP'], a4330=False)
+syn.__floatdict__['O2Sat'] = 100*syn.__floatdict__['DOXY'] / bgc.unit.oxy_sol(syn.__floatdict__['PSAL'], syn.__floatdict__['TEMP'], syn.__floatdict__['PDEN'], a4330=bgc.get_optode_type(wmo_id) == 'AANDERAA_OPTODE_4330')
 
 new_new_gains = syn.calc_gains(ref='WOA')
 new_new_gainplot = syn.plot('gain', ref='WOA')
