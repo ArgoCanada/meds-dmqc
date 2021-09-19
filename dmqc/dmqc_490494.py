@@ -9,15 +9,18 @@ import matplotlib.pyplot as plt
 
 import bgcArgoDMQC as bgc
 
-# This script will be used to DMQC a given float, as of the current date (feb
-# 3, 2021), things are largely in a trial phase. This sort of "trial by fire"
-# use of the package will likely lead to development in ArgoCanada/bgcArgoDMQC,
-# which is exactly the idea. I will make an effort to do all DMQC in this file
-# so that there is a clear diary of development on the github page. 
+# this script to serve as a template for performing DMQC. When DMQC-ing a
+# float, make a copy of this file and rename it dmqc_[wmo].py. This way if
+# you need to re-run the dmqc process, you can do so easily without having
+# to alter a "living" script. 
 
-wmo_id = 4900497
+# deployed off NS shelf in March 2004
+wmo_id = 4900494
 
+# load BOTH the synthetic and individual profile files to redundantly check for
+# differences in gain
 syn  = bgc.sprof(wmo_id)
+# prof = bgc.profiles(wmo_id)
 
 # check the traj file - I doubt there is in-air data on a float that old but 
 # who knows
@@ -63,6 +66,17 @@ ax.legend(loc=3, fontsize=8)
 fig.set_size_inches(figsize[0]/3, figsize[1])
 fig.savefig(Path('figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
+# this float has one anomalous point of surface oxygen - investigate that profile
+surf_sat = syn.__WOAfloatref__[:,2]
+ix = surf_sat > 110
+print(sum(ix))
+g = syn.plot('profiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1)
+g = syn.plot('qcprofiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1, axes=g.axes[0])
+g.axes[0].set_ylim((250,0))
+
+g.fig.set_size_inches(figsize[0]/3, figsize[1])
+g.fig.savefig(Path('figures/{}/anom_profile.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
 # load in comparison with SAGE output
 sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/{}_sagedata.mat'.format(wmo_id))
 sagedata = loadmat(sagefile)
@@ -93,9 +107,50 @@ axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
 fig.set_size_inches(figsize[0]*4/3, figsize[1])
 fig.savefig(Path('figures/{}/sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
+# remove the anomalous point of surface oxygen and recalculate
+iy = syn.__floatdict__['O2Sat'] > 110
+iy = np.logical_and(syn.__floatdict__['O2Sat'] > 110, syn.__floatdict__['CYCLE_GRID'] == syn.CYCLE[ix][0])
+syn.__floatdict__['O2Sat'][iy] = np.nan
+
+new_gains = syn.calc_gains(ref='WOA')
+new_gainplot = syn.plot('gain', ref='WOA')
+
+new_gainplot.fig.savefig(Path('figures/{}/new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
 sage_factor = py_float / sage_float
+potential_correct_gain = sage_factor * new_gains
+
+syn.__floatdict__['O2Sat'] = 100*syn.__floatdict__['DOXY'] / bgc.unit.oxy_sol(syn.__floatdict__['PSAL'], syn.__floatdict__['TEMP'], syn.__floatdict__['PDEN'], a4330=bgc.get_optode_type(wmo_id) == 'AANDERAA_OPTODE_4330')
+
+new_new_gains = syn.calc_gains(ref='WOA')
+new_new_gainplot = syn.plot('gain', ref='WOA')
+
+new_new_gainplot.fig.savefig(Path('figures/{}/new_new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 py_woa = syn.__WOAref__
 py_float = syn.__WOAfloatref__[:,2]
 
 plt.close('all')
+
+fig, axes = plt.subplots(1,2)
+axes[0].plot(sage_float, py_float, 'ko')
+axes[1].plot(sage_woa, py_woa, 'ko')
+
+xlim1 = axes[0].get_xlim()
+axes[0].plot(xlim1, xlim1, 'k-')
+axes[0].set_xlim(xlim1)
+axes[0].set_ylim(xlim1)
+axes[0].set_xlabel('SAGE Float % Sat')
+axes[0].set_ylabel('bgcArgoDMQC Float % Sat')
+
+xlim2 = axes[1].get_xlim()
+axes[1].plot(xlim2, xlim2, 'k-')
+axes[1].set_xlim(xlim2)
+axes[1].set_ylim(xlim2)
+axes[1].set_xlabel('SAGE WOA % Sat')
+axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
+
+fig.set_size_inches(figsize[0]*4/3, figsize[1])
+fig.savefig(Path('figures/{}/new_sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
+plt.show()
