@@ -18,6 +18,10 @@ import bgcArgoDMQC as bgc
 # some comparison data. As long as the file exists the wmo should fill in
 # itself so will not require any additional user input. 
 
+# float-specific code should go at the bottom and relevant plots should
+# be re-made following those actions. NOTE: should make these higher level
+# plots into functions for ease of use. Non-urgent can copy/paste for now.
+
 # deployed off NS shelf in March 2004
 wmo_id = 4900497
 
