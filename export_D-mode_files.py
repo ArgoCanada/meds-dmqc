@@ -8,6 +8,12 @@ import pandas as pd
 
 import bgcArgoDMQC as bgc
 
+# this script to serve as a template for performing D-mode file export. When
+# export files for a given float, make a copy of this file and rename it 
+# export_D-mode_files_[wmo].py. This way if you need to re-run the dmqc or
+# export process, you can do so easily without having to alter a "living" 
+# script.
+
 exclude_dims = ['N_CALIB']
 exclude_vars = [
     'SCIENTIFIC_CALIB_COMMENT', 
@@ -40,7 +46,7 @@ operater = 'Christopher Gordon'
 affiliation = 'Fisheries and Oceans Canada'
 orcid = '0000-0002-1756-422X'
 
-float_path = Path('/Users/gordonc/Documents/data/Argo/meds') / str(wmo) / 'profiles'
+float_path = Path('/Users/gordonc/Documents/data/Argo/meds/dac') / str(wmo) / 'profiles'
 R_files = list(float_path.glob('BR*.nc'))
 
 for fn in R_files:
@@ -107,7 +113,7 @@ for fn in R_files:
     doxy_adjusted = gain*D_nc['DOXY'][:].data
     D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     doxy_adjusted_qc = D_nc['DOXY_QC'][:].data
-    # note - for some older files there are 0 flags - I have no idea why or what they mean
+    # note - for some older files there are 0 flags - meaning no QC was done at all
     doxy_adjusted_qc[doxy_adjusted_qc == b'0'] = b'3'
     D_nc['DOXY_QC'][:] = doxy_adjusted_qc
     doxy_adjusted_qc[doxy_adjusted_qc == b'3'] = b'2'
