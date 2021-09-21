@@ -25,6 +25,11 @@ import bgcArgoDMQC as bgc
 # deployed off NS shelf in March 2004
 wmo_id = 4900497
 
+# check if path where ../figures will be saved exists, make it if not
+figpath = Path('../figures/{}'.format(wmo_id))
+if not figpath.exists():
+    figpath.mkdir()
+
 # load BOTH the synthetic and individual profile files to redundantly check for
 # differences in gain
 syn  = bgc.sprof(wmo_id)
