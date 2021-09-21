@@ -25,7 +25,7 @@ import bgcArgoDMQC as bgc
 # deployed off NS shelf in March 2004
 wmo_id = 4900497
 
-# check if path where ../figures will be saved exists, make it if not
+# check if path where figures will be saved exists, make it if not
 figpath = Path('../figures/{}'.format(wmo_id))
 if not figpath.exists():
     figpath.mkdir()
@@ -35,10 +35,7 @@ if not figpath.exists():
 syn  = bgc.sprof(wmo_id)
 # prof = bgc.profiles(wmo_id)
 
-# check the traj file - I doubt there is in-air data on a float that old but 
-# who knows
-# 
-# there is a DOXY variable but not PPOX_DOXY - still, in-air gain will work
+# check if there is a BRtraj and if it has PPOX_DOXY or equivalent
 traj = Dataset(syn.__BRtraj__)
 print(traj.variables.keys())
 
@@ -48,13 +45,13 @@ syn.clean()
 g_prof2 = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
 
 figsize = (g_prof.fig.get_figwidth(), g_prof.fig.get_figheight())
-g_prof.fig.savefig(Path('figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
-g_prof2.fig.savefig(Path('figures/{}/qcprofiles_cleaned.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_prof.fig.savefig(Path('../figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_prof2.fig.savefig(Path('../figures/{}/qcprofiles_cleaned.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # calculate gains
 woa_gains = syn.calc_gains(ref='WOA')
 g_gain = syn.plot('gain', ref='WOA')
-g_gain.fig.savefig(Path('figures/{}/gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_gain.fig.savefig(Path('../figures/{}/gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 DOXY_ADJUSTED = syn.DOXY * np.nanmean(woa_gains)
 # add to float dict
@@ -74,35 +71,38 @@ ax.plot([np.nan], [np.nan], color=plt.cm.GnBu_r(0.6), label='Python Package')
 ax.legend(loc=3, fontsize=8)
 
 fig.set_size_inches(figsize[0]/3, figsize[1])
-fig.savefig(Path('figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+fig.savefig(Path('../figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 # load in comparison with SAGE output
 sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/{}_sagedata.mat'.format(wmo_id))
-sagedata = loadmat(sagefile)
+if sagefile.exists():
+    sagedata = loadmat(sagefile)
 
-sage_float = sagedata['SURF_SAT'][:,1]
-sage_woa = sagedata['WOAsurf'][0,:]
-py_woa = syn.__WOAref__
-py_float = syn.__WOAfloatref__[:,2]
+    sage_float = sagedata['SURF_SAT'][:,1]
+    sage_woa = sagedata['WOAsurf'][0,:]
+    py_woa = syn.__WOAref__
+    py_float = syn.__WOAfloatref__[:,2]
 
-fig, axes = plt.subplots(1,2)
-axes[0].plot(sage_float, py_float, 'ko')
-axes[1].plot(sage_woa, py_woa, 'ko')
+    fig, axes = plt.subplots(1,2)
+    axes[0].plot(sage_float, py_float, 'ko')
+    axes[1].plot(sage_woa, py_woa, 'ko')
 
-xlim1 = axes[0].get_xlim()
-axes[0].plot(xlim1, xlim1, 'k-')
-axes[0].set_xlim(xlim1)
-axes[0].set_ylim(xlim1)
-axes[0].set_xlabel('SAGE Float % Sat')
-axes[0].set_ylabel('bgcArgoDMQC Float % Sat')
+    xlim1 = axes[0].get_xlim()
+    axes[0].plot(xlim1, xlim1, 'k-')
+    axes[0].set_xlim(xlim1)
+    axes[0].set_ylim(xlim1)
+    axes[0].set_xlabel('SAGE Float % Sat')
+    axes[0].set_ylabel('bgcArgoDMQC Float % Sat')
 
-xlim2 = axes[1].get_xlim()
-axes[1].plot(xlim2, xlim2, 'k-')
-axes[1].set_xlim(xlim2)
-axes[1].set_ylim(xlim2)
-axes[1].set_xlabel('SAGE WOA % Sat')
-axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
+    xlim2 = axes[1].get_xlim()
+    axes[1].plot(xlim2, xlim2, 'k-')
+    axes[1].set_xlim(xlim2)
+    axes[1].set_ylim(xlim2)
+    axes[1].set_xlabel('SAGE WOA % Sat')
+    axes[1].set_ylabel('bgcArgoDMQC WOA % Sat')
 
-fig.set_size_inches(figsize[0]*4/3, figsize[1])
-fig.savefig(Path('figures/{}/sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+    fig.set_size_inches(figsize[0]*4/3, figsize[1])
+    fig.savefig(Path('../figures/{}/sage_comparison.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
+plt.show()
+plt.close('all')
