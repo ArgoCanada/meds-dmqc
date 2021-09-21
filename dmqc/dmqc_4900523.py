@@ -15,7 +15,7 @@ import bgcArgoDMQC as bgc
 # which is exactly the idea. I will make an effort to do all DMQC in this file
 # so that there is a clear diary of development on the github page. 
 
-wmo_id = 4900494
+wmo_id = 4900523
 
 # check if path where figures will be saved exists, make it if not
 figpath = Path('../figures/{}'.format(wmo_id))
@@ -24,7 +24,6 @@ if not figpath.exists():
 
 syn  = bgc.sprof(wmo_id)
 
-# there is no BRtraj file - so no in-air gains
 # calculate gains
 woa_gains = syn.calc_gains(ref='WOA')
 # air_gains = syn.calc_gains(ref='NCEP')
