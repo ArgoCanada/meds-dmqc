@@ -42,20 +42,18 @@ syn  = bgc.sprof(wmo_id)
 traj = Dataset(syn.__BRtraj__)
 print(traj.variables.keys())
 
-# calculate gains
-woa_gains = syn.calc_gains(ref='WOA')
-
 # make some plots
 g_prof = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
 syn.clean()
 g_prof2 = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
 
 figsize = (g_prof.fig.get_figwidth(), g_prof.fig.get_figheight())
-# g_prof.fig.savefig(Path('figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
-# g_prof2.fig.savefig(Path('figures/{}/qcprofiles_cleaned.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_prof.fig.savefig(Path('figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+g_prof2.fig.savefig(Path('figures/{}/qcprofiles_cleaned.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
+# calculate gains
+woa_gains = syn.calc_gains(ref='WOA')
 g_gain = syn.plot('gain', ref='WOA')
-
 g_gain.fig.savefig(Path('figures/{}/gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
 DOXY_ADJUSTED = syn.DOXY * np.nanmean(woa_gains)

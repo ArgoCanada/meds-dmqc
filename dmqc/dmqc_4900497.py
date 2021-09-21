@@ -35,14 +35,15 @@ traj = Dataset(syn.__BRtraj__)
 print(traj.variables.keys())
 
 # DOXY variable exists but is only fillvalues - no in air gains
-# calculate gains
-woa_gains = syn.calc_gains(ref='WOA')
-# air_gains = syn.calc_gains(ref='NCEP')
 
 # make some plots
 g_prof = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
 syn.clean()
 g_prof2 = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
+
+# calculate gains
+woa_gains = syn.calc_gains(ref='WOA')
+# air_gains = syn.calc_gains(ref='NCEP')
 
 figsize = (g_prof.fig.get_figwidth(), g_prof.fig.get_figheight())
 g_prof.fig.savefig(Path('../figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
@@ -75,7 +76,6 @@ fig.savefig(Path('../figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox
 # this float has one anomalous point of surface oxygen - investigate that profile
 surf_sat = syn.__WOAfloatref__[:,2]
 ix = surf_sat > 110
-print(sum(ix))
 g = syn.plot('profiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1)
 g = syn.plot('qcprofiles', varlist=['DOXY'], Ncycle=syn.CYCLE[ix][0]+1, Nprof=1, axes=g.axes[0])
 g.axes[0].set_ylim((250,0))

@@ -24,15 +24,15 @@ if not figpath.exists():
 
 syn  = bgc.sprof(wmo_id)
 
-# there is no BRtraj file - so no in-air gains
-# calculate gains
-woa_gains = syn.calc_gains(ref='WOA')
-# air_gains = syn.calc_gains(ref='NCEP')
-
 # make some plots
 g_prof = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
 syn.clean()
 g_prof2 = syn.plot('qcprofiles', varlist=['PSAL_ADJUSTED', 'TEMP_ADJUSTED', 'DOXY_ADJUSTED'])
+
+# there is no BRtraj file - so no in-air gains
+# calculate gains
+woa_gains = syn.calc_gains(ref='WOA')
+# air_gains = syn.calc_gains(ref='NCEP')
 
 figsize = (g_prof.fig.get_figwidth(), g_prof.fig.get_figheight())
 g_prof.fig.savefig(Path('../figures/{}/qcprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
