@@ -69,6 +69,15 @@ ax.legend(loc=3, fontsize=8)
 fig.set_size_inches(figsize[0]/3, figsize[1])
 fig.savefig(Path('../figures/{}/gainprofiles.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
 
+# add some extra plots
+fig, axes = plt.subplots(3, 1, sharex=True)
+vmin = dict(PSAL=30, TEMP=None, DOXY=120)
+for ax, v in zip(axes, ['DOXY', 'TEMP', 'PSAL']):
+    syn.plot('cscatter', varname=v, ax=ax, vmin=vmin[v])
+    ax.set_ylim((150, 0))
+fig.tight_layout()
+fig.set_size_inches(4,6)
+
 # load in comparison with SAGE output
 sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/{}_sagedata.mat'.format(wmo_id))
 if sagefile.exists():
