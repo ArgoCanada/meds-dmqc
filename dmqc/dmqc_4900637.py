@@ -78,6 +78,19 @@ for ax, v in zip(axes, ['DOXY', 'TEMP', 'PSAL']):
 fig.tight_layout()
 fig.set_size_inches(4,6)
 
+# the last three profiles have bad salinity - and therefore bad O2sat
+# however the salinity is only flagged as 3, so O2sat took that as the
+# worst flag. 
+#
+# action item: flag O2sat where PSAL_QC = 3 to be 4, re-clean, re-run
+syn.__floatdict__['O2Sat_QC'][syn.__floatdict__['PSAL_QC'] == 3] = 4
+syn.clean()
+
+# re-calculate gains\
+new_woa_gains = syn.calc_gains(ref='WOA')
+g_gain_new = syn.plot('gain', ref='WOA')
+g_gain_new.fig.savefig(Path('../figures/{}/new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
+
 # load in comparison with SAGE output
 sagefile = Path('/Users/gordonc/Documents/projects/external/ARGO_PROCESSING/MFILES/GUIS/SAGE_O2Argo/cgrdn_sprof/{}_sagedata.mat'.format(wmo_id))
 if sagefile.exists():
