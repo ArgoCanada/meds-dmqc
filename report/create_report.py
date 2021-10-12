@@ -21,8 +21,8 @@ def start_doc(path=today, doc_name=document_name):
         f'\\author{{Christopher Gordon, DMQC Operator}}',
         f'\\date{{\\today}}\n',
         f'\\begin{{document}}',
-        f'\t\\maketitle'
-        f'\t\\clearpage'
+        f'\\maketitle',
+        f'\\clearpage'
     ]
 
     [f.write(l + '\n') for l in lines]
@@ -33,11 +33,11 @@ def start_doc(path=today, doc_name=document_name):
 def insert_figure(fn, width=0.8, caption=''):
 
     lines = [
-        f'\\begin{{figure}}',
-        f'\t\\centering',
-        f'\t\\includegraphics[width={width}\\textwidth]{{{fn}}}',
-        f'\t\\caption{{{caption}}}',
-        f'\\end{{figure}}'
+        f'\t\\begin{{figure}}',
+        f'\t\t\\centering',
+        f'\t\t\\includegraphics[width={width}\\textwidth]{{{fn}}}',
+        f'\t\t\\caption{{{caption}}}',
+        f'\t\\end{{figure}}'
     ]
 
     s = ''
@@ -46,11 +46,51 @@ def insert_figure(fn, width=0.8, caption=''):
     
     return s
 
-# def list_figures(flt):
+def list_figures(flt):
+
+    figures = list(Path(f'../figures/{flt}/').glob('*.png'))
+    return figures
 
 # def write_caption(figure_name):
 
-# def parse_comment(comment):
+def parse_comment(comment):
+
+    # separate at semi colons
+    pts = comment.split(';')
+    # get rid of any leading whitespace
+    pts = [p.strip() for p in pts]
+    # check if second level of bullets
+    lvl = [re.match('--.*', p) is not None for p in pts]
+    # get rid of the leading dash for those now
+    pts = [p.replace('--', '') if l else p for p,l in zip(pts, lvl)]
+    # parse exponent units
+    pts = [p.replace('m-3', 'm$^{-3}$') for p in pts]
+    # escape character for underscores
+    pts = [p.replace('_', '\\_') for p in pts]
+
+    return pts, lvl
+
+def write_bullets(bullets, indent):
+
+    i = 0
+    lines = [f'\\begin{{itemize}}']
+    while i < len(bullets):
+        if indent[i]:
+            lines.append(f'\t\\begin{{itemize}}')
+            while i < len(bullets) and indent[i]:
+                lines.append(f'\t\t\\item {bullets[i]}')
+                i += 1
+            lines.append(f'\t\\end{{itemize}}')
+        else:
+            lines.append(f'\t\\item {bullets[i]}')
+            i += 1
+    lines.append(f'\\end{{itemize}}')
+
+    s = ''
+    for l in lines:
+        s = s + l + '\n'
+    
+    return s
 
 if __name__ == '__main__':
 
@@ -62,8 +102,14 @@ if __name__ == '__main__':
     # start the document, named for todays date
     f = start_doc()
     # populate subsection for each float
-    for flt in df['wmo']:
-        f.write(f'\t\\section{{Float {int(flt)}}}\n')
+    for i in df.index:
+        f.write(f'\\section{{Float {int(df.wmo[i])}}}\n\n')
+        f.write(f'Gain ({df.reference_data[i]}): ${df.gain[i]:.3f} \\pm {df.gain_std[i]:.3f}$\n')
+        if df.sage_gain.notna()[i]:
+            f.write(f'SAGE Gain: ${df.sage_gain[i]:.3f} \\pm {df.sage_gain_std[i]:.3f}$\n')
+        f.write('\n')
+        f.write(write_bullets(*parse_comment(df.comments[i])))
+        
 
     # end document
     f.write(f'\\end{{document}}\n')
