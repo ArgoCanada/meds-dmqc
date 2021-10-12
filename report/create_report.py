@@ -33,11 +33,11 @@ def start_doc(path=today, doc_name=document_name):
 def insert_figure(fn, width=0.8, caption=''):
 
     lines = [
-        f'\t\\begin{{figure}}',
-        f'\t\t\\centering',
-        f'\t\t\\includegraphics[width={width}\\textwidth]{{{fn}}}',
-        f'\t\t\\caption{{{caption}}}',
-        f'\t\\end{{figure}}'
+        f'\n\\begin{{figure}}[H]',
+        f'\t\\centering',
+        f'\t\\includegraphics[width={width}\\textwidth]{{{fn}}}',
+        f'\t\\caption{{{caption}}}',
+        f'\\end{{figure}}\n'
     ]
 
     s = ''
@@ -48,7 +48,7 @@ def insert_figure(fn, width=0.8, caption=''):
 
 def list_figures(flt):
 
-    figures = list(Path(f'../figures/{flt}/').glob('*.png'))
+    figures = [f.as_posix() for f in Path(f'/Users/GordonC/Documents/projects/meds-dmqc/figures/{int(flt)}/').glob('*.png')]
     return figures
 
 # def write_caption(figure_name):
@@ -84,7 +84,7 @@ def write_bullets(bullets, indent):
         else:
             lines.append(f'\t\\item {bullets[i]}')
             i += 1
-    lines.append(f'\\end{{itemize}}')
+    lines.append(f'\\end{{itemize}}\n')
 
     s = ''
     for l in lines:
@@ -109,6 +109,9 @@ if __name__ == '__main__':
             f.write(f'SAGE Gain: ${df.sage_gain[i]:.3f} \\pm {df.sage_gain_std[i]:.3f}$\n')
         f.write('\n')
         f.write(write_bullets(*parse_comment(df.comments[i])))
+
+        for figure in list_figures(df.wmo[i]):
+            f.write(insert_figure(figure))
         
 
     # end document
