@@ -125,8 +125,8 @@ for fn in R_files:
     doxy_adjusted = gain*D_nc['DOXY'][:].data
     D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     doxy_adjusted_qc = D_nc['DOXY_QC'][:].data
-    # note - for some older files there are 0 flags - I have no idea why or what they mean
-    doxy_adjusted_qc[doxy_adjusted_qc == b'0'] = b'3'
+    # note - for some older files there are 0 flags meaning no QC, changing to 2 based on visual QC
+    doxy_adjusted_qc[doxy_adjusted_qc == b'0'] = b'2'
     D_nc['DOXY_QC'][:] = doxy_adjusted_qc
     doxy_adjusted_qc[doxy_adjusted_qc == b'3'] = b'2'
     D_nc['DOXY_ADJUSTED_QC'][:] = doxy_adjusted_qc
@@ -139,11 +139,11 @@ for fn in R_files:
     # molar_doxy_adjusted_qc[molar_doxy_adjusted_qc == b'3'] = b'2'
     # D_nc['MOLAR_DOXY_ADJUSTED_QC'][:] = molar_doxy_adjusted_qc
 
-    # D_nc['PARAMETER'][:] = R_nc['PARAMETER'][:]
+    D_nc['PARAMETER'][:] = R_nc['PARAMETER'][:]
     # NOTE: this is manual right now, long term should not be
     D_nc['DATA_MODE'][:] = np.array([b'D'])
     D_nc['PROFILE_DOXY_QC'][:] = np.array([b'D'])
-    D_nc['PARAMETER_DATA_MODE'][:] = np.array([b'R', b'D', b'R', b'D'])
+    D_nc['PARAMETER_DATA_MODE'][:] = np.array([b'R', b'D', b'R', b'R'])
 
     try:
         sprof_nc = Dataset(fn.as_posix().replace('BR', 'SR'))
