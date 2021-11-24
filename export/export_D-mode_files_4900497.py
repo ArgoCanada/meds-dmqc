@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import sys
 from pathlib import Path
 from netCDF4 import Dataset
 
@@ -54,6 +55,7 @@ R_files = list(float_path.glob('BR*.nc'))
 for fn in R_files:
     # create DM file
     D_file = fn.as_posix().replace('BR', 'BD')
+    sys.stdout.write(f'Working on D-mode file {D_file}...')
     # load RT data
     R_nc = Dataset(fn)
     # copys RT data except for those variables in exclude_vars or with
@@ -155,6 +157,8 @@ for fn in R_files:
     # populate adjusted error
     D_nc['DOXY_ADJUSTED_ERROR'][:] = bgc.unit.pO2_to_doxy(4, S, T, P)
     # D_nc['MOLAR_DOXY_ADJUSTED_ERROR'][:] = bgc.unit.umol_per_sw_to_mmol_per_L(D_nc['DOXY_ADJUSTED_ERROR'][:].data, S, T, P)
+
+    sys.stdout.write('done\n')
 
     R_nc.close()
     D_nc.close()
