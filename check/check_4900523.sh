@@ -1,4 +1,4 @@
-wmo=4900497
+wmo=4900523
 path=c:/Users/GordonC/Documents/data/Argo/dac/meds/D/$wmo/profiles
 logfile=../log/log_$wmo.xml
 echo "***FileChecker log for float $wmo***" > $logfile

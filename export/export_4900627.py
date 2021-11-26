@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-from os import pardir
 import sys
 from pathlib import Path
 from netCDF4 import Dataset
@@ -37,7 +36,7 @@ dims = [
 ]
 
 # float ID
-wmo = 4900497
+wmo = 4900627
 
 # get gain from tracking spreadsheet
 tracker = pd.read_csv(Path('../dmqc_tracker.csv'))
@@ -134,20 +133,14 @@ for fn in R_files:
 
     # populate DOXY_ADJUSTED
     doxy_adjusted = gain*D_nc['DOXY'][:].data
+    D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     doxy_adjusted_qc = D_nc['DOXY_QC'][:].data
     # note - for some older files there are 0 flags meaning no QC, changing to 2 based on visual QC
     doxy_adjusted_qc[doxy_adjusted_qc == b'0'] = b'2'
     D_nc['DOXY_QC'][:] = doxy_adjusted_qc
     doxy_adjusted_qc[doxy_adjusted_qc == b'3'] = b'2'
-    # manual flag adjustment - visual inspection
-    cycle = 83
-    if R_nc['CYCLE_NUMBER'][:].compressed()[0] == cycle:
-        ix = np.where(np.logical_and(R_nc['DOXY'][:].data > 250, R_nc['PRES'][:].data < 100))
-        doxy_adjusted_qc[ix] = b'4'
-        doxy_adjusted[ix] = D_nc['DOXY_ADJUSTED']._FillValue
-
-    D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     D_nc['DOXY_ADJUSTED_QC'][:] = doxy_adjusted_qc
+    D_nc['DOXY_ADJUSTED'][:][doxy_adjusted_qc == b'4'] = D_nc['DOXY_ADJUSTED']._FillValue
 
     # don't worry about MOLAR_DOXY anymore
     # molar_doxy_adjusted = gain*D_nc['MOLAR_DOXY'][:].data
@@ -166,6 +159,7 @@ for fn in R_files:
         parameter[:,i,:,:] = R_nc['PARAMETER'][:][:,i,:,:]
     parameter[:,-1,:,:] = R_nc['PARAMETER'][:][:,-1,:,:]
     D_nc['PARAMETER'][:] = parameter
+    D_nc['PARAMETER'][:][:,-1,:,:] = R_nc['PARAMETER'][:][:,-1,:,:]
     # NOTE: this is manual right now, long term should not be
     D_nc['DATA_MODE'][:] = np.array([b'D'])
     D_nc['PROFILE_DOXY_QC'][:] = np.array([b'D'])

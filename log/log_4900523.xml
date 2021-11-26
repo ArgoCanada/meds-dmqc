@@ -1,13 +1,13 @@
-***FileChecker log for float 4900497***
+***FileChecker log for float 4900523***
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_001.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_001.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:05</date>
+	<date>26/11/2021 19:37:11</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_001.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_001.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -37,14 +37,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_001.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_002.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_002.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:08</date>
+	<date>26/11/2021 19:37:15</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_002.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_002.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -74,14 +74,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_002.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_003.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_003.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:11</date>
+	<date>26/11/2021 19:37:18</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_003.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_003.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -111,14 +111,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_003.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_004.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_004.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:14</date>
+	<date>26/11/2021 19:37:21</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_004.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_004.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -148,14 +148,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_004.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_005.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_005.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:17</date>
+	<date>26/11/2021 19:37:24</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_005.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_005.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -185,14 +185,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_005.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_006.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_006.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:19</date>
+	<date>26/11/2021 19:37:27</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_006.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_006.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -222,14 +222,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_006.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_007.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_007.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:22</date>
+	<date>26/11/2021 19:37:31</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_007.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_007.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -259,14 +259,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_007.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_008.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_008.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:24</date>
+	<date>26/11/2021 19:37:34</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_008.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_008.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -296,14 +296,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_008.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_009.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_009.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:27</date>
+	<date>26/11/2021 19:37:37</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_009.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_009.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -333,14 +333,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_009.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_010.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_010.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:30</date>
+	<date>26/11/2021 19:37:40</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_010.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_010.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -370,14 +370,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_010.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_011.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_011.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:33</date>
+	<date>26/11/2021 19:37:43</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_011.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_011.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -407,14 +407,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_011.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_012.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_012.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:35</date>
+	<date>26/11/2021 19:37:46</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_012.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_012.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -444,14 +444,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_012.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_013.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_013.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:38</date>
+	<date>26/11/2021 19:37:49</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_013.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_013.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -481,14 +481,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_013.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_014.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_014.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:41</date>
+	<date>26/11/2021 19:37:51</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_014.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_014.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -518,14 +518,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_014.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_015.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_015.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:44</date>
+	<date>26/11/2021 19:37:54</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_015.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_015.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -555,14 +555,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_015.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_016.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_016.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:47</date>
+	<date>26/11/2021 19:37:57</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_016.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_016.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -592,14 +592,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_016.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_017.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_017.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:50</date>
+	<date>26/11/2021 19:38:00</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_017.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_017.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -629,14 +629,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_017.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_018.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_018.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:53</date>
+	<date>26/11/2021 19:38:03</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_018.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_018.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -666,14 +666,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_018.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_019.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_019.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:05:57</date>
+	<date>26/11/2021 19:38:06</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_019.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_019.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -703,14 +703,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_019.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_020.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_020.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:00</date>
+	<date>26/11/2021 19:38:09</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_020.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_020.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -740,14 +740,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_020.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_021.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_021.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:03</date>
+	<date>26/11/2021 19:38:12</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_021.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_021.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -777,14 +777,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_021.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_022.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_022.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:06</date>
+	<date>26/11/2021 19:38:15</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_022.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_022.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -814,14 +814,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_022.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_023.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_023.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:08</date>
+	<date>26/11/2021 19:38:17</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_023.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_023.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -851,14 +851,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_023.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_024.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_024.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:11</date>
+	<date>26/11/2021 19:38:20</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_024.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_024.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -888,14 +888,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_024.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_025.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_025.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:14</date>
+	<date>26/11/2021 19:38:23</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_025.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_025.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -925,14 +925,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_025.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_026.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_026.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:17</date>
+	<date>26/11/2021 19:38:26</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_026.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_026.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -962,14 +962,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_026.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_027.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_027.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:20</date>
+	<date>26/11/2021 19:38:29</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_027.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_027.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -999,14 +999,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_027.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_028.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_028.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:22</date>
+	<date>26/11/2021 19:38:32</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_028.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_028.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1036,14 +1036,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_028.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_029.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_029.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:25</date>
+	<date>26/11/2021 19:38:34</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_029.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_029.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1073,14 +1073,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_029.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_030.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_030.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:28</date>
+	<date>26/11/2021 19:38:38</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_030.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_030.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1110,14 +1110,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_030.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_031.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_031.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:31</date>
+	<date>26/11/2021 19:38:41</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_031.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_031.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1147,14 +1147,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_031.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_032.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_032.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:34</date>
+	<date>26/11/2021 19:38:43</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_032.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_032.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1184,14 +1184,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_032.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_033.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_033.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:36</date>
+	<date>26/11/2021 19:38:46</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_033.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_033.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1221,14 +1221,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_033.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_034.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_034.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:39</date>
+	<date>26/11/2021 19:38:49</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_034.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_034.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1258,14 +1258,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_034.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_035.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_035.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:42</date>
+	<date>26/11/2021 19:38:52</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_035.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_035.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1295,14 +1295,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_035.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_036.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_036.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:45</date>
+	<date>26/11/2021 19:38:55</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_036.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_036.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1332,14 +1332,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_036.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_037.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_037.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:48</date>
+	<date>26/11/2021 19:38:57</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_037.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_037.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1369,14 +1369,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_037.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_038.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_038.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:51</date>
+	<date>26/11/2021 19:39:00</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_038.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_038.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1406,14 +1406,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_038.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_039.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_039.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:54</date>
+	<date>26/11/2021 19:39:04</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_039.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_039.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1443,14 +1443,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_039.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_040.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_040.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:06:57</date>
+	<date>26/11/2021 19:39:07</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_040.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_040.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1480,14 +1480,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_040.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_041.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_041.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:00</date>
+	<date>26/11/2021 19:39:10</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_041.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_041.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1517,14 +1517,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_041.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_042.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_042.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:02</date>
+	<date>26/11/2021 19:39:13</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_042.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_042.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1554,14 +1554,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_042.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_043.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_043.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:05</date>
+	<date>26/11/2021 19:39:16</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_043.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_043.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1591,14 +1591,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_043.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_044.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_044.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:08</date>
+	<date>26/11/2021 19:39:19</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_044.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_044.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1628,14 +1628,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_044.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_045.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_045.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:11</date>
+	<date>26/11/2021 19:39:21</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_045.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_045.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1665,14 +1665,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_045.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_046.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_046.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:14</date>
+	<date>26/11/2021 19:39:24</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_046.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_046.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1702,14 +1702,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_046.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_047.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_047.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:17</date>
+	<date>26/11/2021 19:39:28</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_047.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_047.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1739,14 +1739,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_047.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_048.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_048.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:20</date>
+	<date>26/11/2021 19:39:31</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_048.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_048.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1776,14 +1776,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_048.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_049.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_049.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:23</date>
+	<date>26/11/2021 19:39:35</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_049.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_049.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1813,14 +1813,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_049.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_050.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_050.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:26</date>
+	<date>26/11/2021 19:39:38</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_050.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_050.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1850,14 +1850,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_050.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_051.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_051.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:29</date>
+	<date>26/11/2021 19:39:41</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_051.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_051.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1887,14 +1887,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_051.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_052.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_052.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:32</date>
+	<date>26/11/2021 19:39:43</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_052.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_052.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1924,14 +1924,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_052.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_053.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_053.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:35</date>
+	<date>26/11/2021 19:39:46</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_053.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_053.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1961,14 +1961,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_053.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_054.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_054.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:39</date>
+	<date>26/11/2021 19:39:49</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_054.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_054.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -1998,14 +1998,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_054.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_055.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_055.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:41</date>
+	<date>26/11/2021 19:39:52</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_055.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_055.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2035,14 +2035,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_055.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_056.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_056.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:44</date>
+	<date>26/11/2021 19:39:55</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_056.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_056.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2072,14 +2072,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_056.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_057.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_057.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:48</date>
+	<date>26/11/2021 19:39:58</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_057.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_057.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2109,14 +2109,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_057.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_058.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_058.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:51</date>
+	<date>26/11/2021 19:40:01</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_058.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_058.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2146,14 +2146,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_058.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_059.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_059.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:54</date>
+	<date>26/11/2021 19:40:04</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_059.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_059.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2183,14 +2183,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_059.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_060.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_060.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:56</date>
+	<date>26/11/2021 19:40:07</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_060.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_060.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2220,14 +2220,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_060.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_061.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_061.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:07:59</date>
+	<date>26/11/2021 19:40:10</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_061.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_061.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2257,14 +2257,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_061.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_062.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_062.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:02</date>
+	<date>26/11/2021 19:40:13</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_062.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_062.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2294,14 +2294,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_062.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_063.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_063.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:05</date>
+	<date>26/11/2021 19:40:16</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_063.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_063.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2331,14 +2331,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_063.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_064.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_064.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:08</date>
+	<date>26/11/2021 19:40:19</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_064.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_064.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2368,14 +2368,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_064.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_065.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_065.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:10</date>
+	<date>26/11/2021 19:40:21</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_065.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_065.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2405,14 +2405,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_065.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_066.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_066.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:13</date>
+	<date>26/11/2021 19:40:24</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_066.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_066.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2442,14 +2442,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_066.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_067.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_067.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:16</date>
+	<date>26/11/2021 19:40:27</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_067.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_067.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2479,14 +2479,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_067.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_068.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_068.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:19</date>
+	<date>26/11/2021 19:40:30</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_068.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_068.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2516,14 +2516,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_068.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_069.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_069.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:21</date>
+	<date>26/11/2021 19:40:33</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_069.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_069.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2553,14 +2553,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_069.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_070.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_070.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:24</date>
+	<date>26/11/2021 19:40:36</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_070.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_070.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2590,14 +2590,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_070.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_071.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_071.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:27</date>
+	<date>26/11/2021 19:40:39</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_071.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_071.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2627,14 +2627,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_071.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_072.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_072.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:30</date>
+	<date>26/11/2021 19:40:42</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_072.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_072.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2664,14 +2664,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_072.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_073.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_073.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:33</date>
+	<date>26/11/2021 19:40:45</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_073.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_073.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2701,14 +2701,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_073.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_074.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_074.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:35</date>
+	<date>26/11/2021 19:40:47</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_074.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_074.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2738,14 +2738,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_074.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_075.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_075.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:38</date>
+	<date>26/11/2021 19:40:50</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_075.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_075.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2775,14 +2775,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_075.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_076.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_076.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:41</date>
+	<date>26/11/2021 19:40:53</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_076.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_076.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2812,14 +2812,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_076.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_077.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_077.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:44</date>
+	<date>26/11/2021 19:40:56</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_077.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_077.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2849,14 +2849,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_077.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_078.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_078.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:47</date>
+	<date>26/11/2021 19:40:59</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_078.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_078.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2886,14 +2886,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_078.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_079.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_079.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:50</date>
+	<date>26/11/2021 19:41:01</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_079.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_079.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2923,14 +2923,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_079.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_080.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_080.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:53</date>
+	<date>26/11/2021 19:41:04</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_080.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_080.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2960,14 +2960,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_080.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_081.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_081.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:56</date>
+	<date>26/11/2021 19:41:08</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_081.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_081.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -2997,14 +2997,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_081.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_082.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_082.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:08:59</date>
+	<date>26/11/2021 19:41:11</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_082.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_082.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3034,14 +3034,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_082.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_083.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_083.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:02</date>
+	<date>26/11/2021 19:41:14</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_083.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_083.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3071,14 +3071,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_083.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_084.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_084.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:04</date>
+	<date>26/11/2021 19:41:17</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_084.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_084.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3108,14 +3108,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_084.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_085.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_085.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:07</date>
+	<date>26/11/2021 19:41:19</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_085.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_085.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3145,14 +3145,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_085.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_086.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_086.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:10</date>
+	<date>26/11/2021 19:41:22</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_086.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_086.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3182,14 +3182,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_086.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_087.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_087.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:13</date>
+	<date>26/11/2021 19:41:25</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_087.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_087.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3219,14 +3219,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_087.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_088.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_088.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:16</date>
+	<date>26/11/2021 19:41:28</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_088.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_088.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3256,14 +3256,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_088.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_089.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_089.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:19</date>
+	<date>26/11/2021 19:41:31</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_089.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_089.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3293,14 +3293,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_089.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_090.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_090.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:22</date>
+	<date>26/11/2021 19:41:34</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_090.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_090.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3330,14 +3330,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_090.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_091.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_091.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:25</date>
+	<date>26/11/2021 19:41:36</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_091.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_091.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3367,14 +3367,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_091.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_092.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_092.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:28</date>
+	<date>26/11/2021 19:41:39</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_092.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_092.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3404,14 +3404,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_092.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_093.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_093.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:31</date>
+	<date>26/11/2021 19:41:42</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_093.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_093.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3441,14 +3441,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_093.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_094.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_094.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:34</date>
+	<date>26/11/2021 19:41:45</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_094.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_094.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3478,14 +3478,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_094.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_095.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_095.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:37</date>
+	<date>26/11/2021 19:41:48</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_095.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_095.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3515,14 +3515,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_095.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_096.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_096.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:40</date>
+	<date>26/11/2021 19:41:51</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_096.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_096.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3552,14 +3552,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_096.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_097.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_097.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:43</date>
+	<date>26/11/2021 19:41:53</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_097.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_097.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3589,14 +3589,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_097.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_098.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_098.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:46</date>
+	<date>26/11/2021 19:41:56</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_098.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_098.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3626,14 +3626,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_098.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_099.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_099.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:48</date>
+	<date>26/11/2021 19:41:59</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_099.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_099.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3663,14 +3663,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_099.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_100.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_100.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:52</date>
+	<date>26/11/2021 19:42:02</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_100.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_100.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3700,14 +3700,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_100.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_101.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_101.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:55</date>
+	<date>26/11/2021 19:42:05</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_101.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_101.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3737,14 +3737,14 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_101.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_102.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_102.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:09:58</date>
+	<date>26/11/2021 19:42:07</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_102.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_102.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>
@@ -3774,14 +3774,791 @@ c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_102.n
 	<status>ok</status>
 </coriolis_function_report>
 
-c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900497/profiles/BD4900497_103.nc
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_103.nc
 <?xml version="1.0"?>
 <coriolis_function_report>
 	<function>CO-03-08-03</function>
 	<comment>Control file data format</comment>
-	<date>26/11/2021 20:10:01</date>
+	<date>26/11/2021 19:42:11</date>
 	<application_version>1.17</application_version>
-	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900497 profiles BD4900497_103.nc</netcdf_file>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_103.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_104.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:14</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_104.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_105.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:17</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_105.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_106.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:19</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_106.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_107.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:22</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_107.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_108.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:25</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_108.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_109.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:28</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_109.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_110.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:31</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_110.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_111.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:34</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_111.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_112.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:36</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_112.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_113.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:39</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_113.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_114.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:42</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_114.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_115.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:45</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_115.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_116.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:48</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_116.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_117.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:50</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_117.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_118.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:53</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_118.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_119.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:56</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_119.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_120.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:42:59</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_120.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_121.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:43:02</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_121.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_122.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:43:05</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_122.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_123.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:43:08</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_123.nc</netcdf_file>
+	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
+	<title>Argo float vertical profile</title>
+	<user_manual_version>3.1</user_manual_version>
+	<data_type>B-Argo profile</data_type>
+	<format_version>3.1</format_version>
+	<file_error>The variable "LATITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LATITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "reference" forbidden</file_error>
+	<file_error>The variable "LONGITUDE" is not correct: attribute "coordinate_reference_frame" forbidden</file_error>
+	<file_error>The variable "HISTORY_INSTITUTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STEP" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_SOFTWARE_RELEASE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_REFERENCE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_DATE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_ACTION" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PARAMETER" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_START_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_STOP_PRES" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_PREVIOUS_VALUE" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The variable "HISTORY_QCTEST" is not correct: attribute "_ChunkSizes" forbidden</file_error>
+	<file_error>The optional variable "TEMP_DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED" is not correct: attribut "comment" forbidden</file_error>
+	<file_error>The optional variable "DOXY_ADJUSTED_ERROR" is not correct: attribut "comment" forbidden</file_error>
+	<file_compliant>no</file_compliant>
+	<status>ok</status>
+</coriolis_function_report>
+
+c:/Users/GordonC/Documents/data/Argo/dac/meds/D/4900523/profiles/BD4900523_124.nc
+<?xml version="1.0"?>
+<coriolis_function_report>
+	<function>CO-03-08-03</function>
+	<comment>Control file data format</comment>
+	<date>26/11/2021 19:43:12</date>
+	<application_version>1.17</application_version>
+	<netcdf_file>c: Users GordonC Documents data Argo dac meds D 4900523 profiles BD4900523_124.nc</netcdf_file>
 	<rules_file>Argo_Prof_b_v3.1_AUM_3.1_20150820.xml</rules_file>
 	<title>Argo float vertical profile</title>
 	<user_manual_version>3.1</user_manual_version>

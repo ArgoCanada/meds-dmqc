@@ -48,14 +48,16 @@ affiliation = 'Fisheries and Oceans Canada'
 orcid = '0000-0002-1756-422X'
 
 # grab list of RT files
-float_path = Path('/Users/gordonc/Documents/data/Argo/dac/meds') / str(wmo) / 'profiles'
+float_path = Path('/Users/GordonC/Documents/data/Argo/dac/meds') / str(wmo) / 'profiles'
 R_files = list(float_path.glob('BR*.nc'))
 
 # loop through files
 for fn in R_files:
     # create DM file
-    D_file = fn.as_posix().replace('BR', 'BD')
-    sys.stdout.write(f'Working on D-mode file {D_file}...')
+    D_file = Path(fn.as_posix().replace('BR', 'BD').replace('dac/meds/', 'dac/meds/D/'))
+    if not D_file.parent.exists():
+        D_file.parent.mkdir(parents=True)
+    sys.stdout.write(f'Working on D-mode file {D_file.as_posix()}...')
     # load RT data
     R_nc = Dataset(fn)
     # copys RT data except for those variables in exclude_vars or with
