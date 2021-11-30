@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-from os import pardir
 import sys
 from pathlib import Path
 from netCDF4 import Dataset
