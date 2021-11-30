@@ -86,7 +86,7 @@ fig.set_size_inches(4,6)
 syn.__floatdict__['O2Sat_QC'][syn.__floatdict__['PSAL_QC'] == 3] = 4
 syn.clean()
 
-# re-calculate gains\
+# re-calculate gains
 new_woa_gains = syn.calc_gains(ref='WOA')
 g_gain_new = syn.plot('gain', ref='WOA')
 g_gain_new.fig.savefig(Path('../figures/{}/new_gainplot.png'.format(wmo_id)), dpi=250, bbox_inches='tight')
