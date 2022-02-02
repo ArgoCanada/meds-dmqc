@@ -147,6 +147,18 @@ for fn in R_files:
 
     D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     D_nc['DOXY_ADJUSTED_QC'][:] = doxy_adjusted_qc
+    
+    profile_doxy_qc = np.full(
+        D_nc['PROFILE_DOXY_QC'].shape,
+        D_nc['PROFILE_DOXY_QC']._FillValue,    
+        dtype=D_nc['PROFILE_DOXY_QC'].datatype
+    )
+    # populate PROFILE_DOXY_QC
+    for i in range(D_nc.dimensions['N_PROF'].size):
+        flags = bgc.util.read_qc(D_nc['DOXY_ADJUSTED_QC'][:].data[i,:])
+        grade = bgc.profile_qc(pd.Series(flags)).encode('utf-8')
+        profile_doxy_qc[i] = grade
+    D_nc['PROFILE_DOXY_QC'][:] = profile_doxy_qc
 
     # don't worry about MOLAR_DOXY anymore
     # molar_doxy_adjusted = gain*D_nc['MOLAR_DOXY'][:].data
