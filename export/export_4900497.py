@@ -9,7 +9,7 @@ import pandas as pd
 
 import bgcArgoDMQC as bgc
 
-exclude_dims = ['N_CALIB']
+exclude_dims = ['N_CALIB', 'N_HISTORY']
 exclude_vars = [
     'SCIENTIFIC_CALIB_COMMENT', 
     'SCIENTIFIC_CALIB_EQUATION', 
@@ -20,7 +20,19 @@ exclude_vars = [
     'DATA_MODE',
     'PARAMETER_DATA_MODE',
     'DOXY_ADJUSTED_QC',
-    'PROFILE_DOXY_QC'
+    'PROFILE_DOXY_QC',
+    'HISTORY_INSTITUTION',
+    'HISTORY_STEP',
+    'HISTORY_SOFTWARE',
+    'HISTORY_SOFTWARE_RELEASE',
+    'HISTORY_REFERENCE',
+    'HISTORY_DATE',
+    'HISTORY_ACTION',
+    'HISTORY_PARAMETER',
+    'HISTORY_START_PRES',
+    'HISTORY_STOP_PRES',
+    'HISTORY_PREVIOUS_VALUE',
+    'HISTORY_QCTEST',
 ]
 dims = [
     ('N_PROF', 'N_CALIB', 'N_PARAM', 'STRING256'),
@@ -32,11 +44,25 @@ dims = [
     ('N_PROF'),
     ('N_PROF', 'N_PARAM'),
     ('N_PROF', 'N_LEVELS'),
-    ('N_PROF')
+    ('N_PROF'),
+    ('N_HISTORY', 'N_PROF', 'STRING4')
+    ('N_HISTORY', 'N_PROF', 'STRING4'),
+    ('N_HISTORY', 'N_PROF', 'STRING4'),
+    ('N_HISTORY', 'N_PROF', 'STRING4'),
+    ('N_HISTORY', 'N_PROF', 'STRING64'),
+    ('N_HISTORY', 'N_PROF', 'DATE_TIME'),
+    ('N_HISTORY', 'N_PROF', 'STRING4'),
+    ('N_HISTORY', 'N_PROF', 'STRING64'),
+    ('N_HISTORY', 'N_PROF'),
+    ('N_HISTORY', 'N_PROF'),
+    ('N_HISTORY', 'N_PROF'),
+    ('N_HISTORY', 'N_PROF', 'STRING16'),
 ]
 
 # float ID
 wmo = 4900497
+# date/time of DMQC
+date = '20220202154200'
 
 # get gain from tracking spreadsheet
 tracker = pd.read_csv(Path('../dmqc_tracker.csv'))
@@ -71,6 +97,8 @@ for fn in R_files:
     )
     # create N_CALIB one greater than the previous one
     D_nc.createDimension('N_CALIB', size=R_nc.dimensions['N_CALIB'].size+1)
+    # create N_HISTORY one greater than the previous one
+    D_nc.createDimension('N_HISTORY', size=R_nc.dimensions['N_HISTORY'].size+1)
     # create the variables that you removed, but with the new N_CALIB
     for v, d in zip(exclude_vars, dims):
         D_nc.createVariable(
@@ -194,6 +222,101 @@ for fn in R_files:
     # populate adjusted error
     D_nc['DOXY_ADJUSTED_ERROR'][:] = bgc.unit.pO2_to_doxy(4, S, T, P)
     # D_nc['MOLAR_DOXY_ADJUSTED_ERROR'][:] = bgc.unit.umol_per_sw_to_mmol_per_L(D_nc['DOXY_ADJUSTED_ERROR'][:].data, S, T, P)
+
+    # history variables
+    
+    # copy variable but leave last slot open
+    history_institution = np.full(
+        D_nc['HISTORY_INSTITUTION'].shape,
+        D_nc['HISTORY_INSTITUTION']._FillValue,    
+        dtype=D_nc['HISTORY_INSTITUTION'].datatype
+    )
+    institution = 'BI'
+    M = D_nc.dimensions['STRING4'].size - len(institution)
+    institution = institution + M*' '
+    institution = np.array(['{}'.format(let).encode('utf-8') for let in institution])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_institution[i, :, :] = R_nc['HISTORY_INSTITUTION'][:][i, :, :]
+    history_institution[-1, :, :] = institution
+    D_nc['HISTORY_INSTITUTION'][:] = history_institution
+
+    history_step = np.full(
+        D_nc['HISTORY_STEP'].shape,
+        D_nc['HISTORY_STEP']._FillValue,    
+        dtype=D_nc['HISTORY_STEP'].datatype
+    )
+    step = 'ARSQ'
+    M = D_nc.dimensions['STRING4'].size - len(step)
+    step = step + M*' '
+    step = np.array(['{}'.format(let).encode('utf-8') for let in step])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_step[i, :, :] = R_nc['HISTORY_STEP'][:][i, :, :]
+    history_step[-1, :, :] = step
+    D_nc['HISTORY_STEP'][:] = history_step
+
+    history_software = np.full(
+        D_nc['HISTORY_SOFTWARE'].shape,
+        D_nc['HISTORY_SOFTWARE']._FillValue,    
+        dtype=D_nc['HISTORY_SOFTWARE'].datatype
+    )
+    software = 'BGQC'
+    M = D_nc.dimensions['STRING4'].size - len(software)
+    software = software + M*' '
+    software = np.array(['{}'.format(let).encode('utf-8') for let in software])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_software[i, :, :] = R_nc['HISTORY_SOFTWARE'][:][i, :, :]
+    history_software[-1, :, :] = software
+    D_nc['HISTORY_SOFTWARE'][:] = history_software
+
+    history_software_release = np.full(
+        D_nc['HISTORY_SOFTWARE_RELEASE'].shape,
+        D_nc['HISTORY_SOFTWARE_RELEASE']._FillValue,    
+        dtype=D_nc['HISTORY_SOFTWARE_RELEASE'].datatype
+    )
+    release = 'v0.2'
+    M = D_nc.dimensions['STRING4'].size - len(release)
+    release = release + M*' '
+    release = np.array(['{}'.format(let).encode('utf-8') for let in release])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_software_release[i, :, :] = R_nc['HISTORY_SOFTWARE_RELEASE'][:][i, :, :]
+    history_software_release[-1, :, :] = release
+    D_nc['HISTORY_SOFTWARE_RELEASE'][:] = history_software_release
+
+    history_date = np.full(
+        D_nc['HISTORY_DATE'].shape,
+        D_nc['HISTORY_DATE']._FillValue,    
+        dtype=D_nc['HISTORY_DATE'].datatype
+    )
+    
+    M = D_nc.dimensions['DATE_TIME'].size - len(date)
+    date = date + M*' '
+    date = np.array(['{}'.format(let).encode('utf-8') for let in date])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_date[i, :, :] = R_nc['HISTORY_DATE'][:][i, :, :]
+    history_date[-1, :, :] = date
+    D_nc['HISTORY_DATE'][:] = history_date
+
+    history_action = np.full(
+        D_nc['HISTORY_ACTION'].shape,
+        D_nc['HISTORY_ACTION']._FillValue,    
+        dtype=D_nc['HISTORY_ACTION'].datatype
+    )
+    action = 'O2QC'
+    M = D_nc.dimensions['STRING4'].size - len(action)
+    action = action + M*' '
+    action = np.array(['{}'.format(let).encode('utf-8') for let in date])
+    for i in range(R_nc.dimensions['N_HISTORY'].size):
+        history_action[i, :, :] = R_nc['HISTORY_ACTION'][:][i, :, :]
+    history_action[-1, :, :] = action
+    D_nc['HISTORY_ACTION'][:] = history_action
+
+    for v in ['HISTORY_REFERENCE', 'HISTORY_START_PRES', 'HISTORY_STOP_PRES', 'HISTORY_PREVIOUS_VALUE', 'HISTORY_QCTEST']:
+        blank = np.full(
+            D_nc[v].shape,
+            D_nc[v]._FillValue,    
+            dtype=D_nc[v].datatype
+        )
+        D_nc[v][:] = blank
 
     sys.stdout.write('done\n')
 
