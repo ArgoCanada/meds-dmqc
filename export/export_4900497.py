@@ -33,6 +33,7 @@ exclude_vars = [
     'HISTORY_STOP_PRES',
     'HISTORY_PREVIOUS_VALUE',
     'HISTORY_QCTEST',
+    'DATA_STATE_INDICATOR',
 ]
 dims = [
     ('N_PROF', 'N_CALIB', 'N_PARAM', 'STRING256'),
@@ -45,7 +46,7 @@ dims = [
     ('N_PROF', 'N_PARAM'),
     ('N_PROF', 'N_LEVELS'),
     ('N_PROF'),
-    ('N_HISTORY', 'N_PROF', 'STRING4')
+    ('N_HISTORY', 'N_PROF', 'STRING4'),
     ('N_HISTORY', 'N_PROF', 'STRING4'),
     ('N_HISTORY', 'N_PROF', 'STRING4'),
     ('N_HISTORY', 'N_PROF', 'STRING4'),
@@ -57,12 +58,13 @@ dims = [
     ('N_HISTORY', 'N_PROF'),
     ('N_HISTORY', 'N_PROF'),
     ('N_HISTORY', 'N_PROF', 'STRING16'),
+    ('N_PROF', 'STRING4'),
 ]
 
 # float ID
 wmo = 4900497
 # date/time of DMQC
-date = '20220202154200'
+dmqc_date = '20220202154200'
 
 # get gain from tracking spreadsheet
 tracker = pd.read_csv(Path('../dmqc_tracker.csv'))
@@ -288,8 +290,8 @@ for fn in R_files:
         dtype=D_nc['HISTORY_DATE'].datatype
     )
     
-    M = D_nc.dimensions['DATE_TIME'].size - len(date)
-    date = date + M*' '
+    M = D_nc.dimensions['DATE_TIME'].size - len(dmqc_date)
+    date = dmqc_date + M*' '
     date = np.array(['{}'.format(let).encode('utf-8') for let in date])
     for i in range(R_nc.dimensions['N_HISTORY'].size):
         history_date[i, :, :] = R_nc['HISTORY_DATE'][:][i, :, :]
@@ -304,7 +306,7 @@ for fn in R_files:
     action = 'O2QC'
     M = D_nc.dimensions['STRING4'].size - len(action)
     action = action + M*' '
-    action = np.array(['{}'.format(let).encode('utf-8') for let in date])
+    action = np.array(['{}'.format(let).encode('utf-8') for let in action])
     for i in range(R_nc.dimensions['N_HISTORY'].size):
         history_action[i, :, :] = R_nc['HISTORY_ACTION'][:][i, :, :]
     history_action[-1, :, :] = action
@@ -318,6 +320,18 @@ for fn in R_files:
         )
         D_nc[v][:] = blank
 
+    data_state_indicator = np.full(
+        D_nc['DATA_STATE_INDICATOR'].shape,
+        D_nc['DATA_STATE_INDICATOR']._FillValue,    
+        dtype=D_nc['DATA_STATE_INDICATOR'].datatype
+    )
+    state = '2C+'
+    M = D_nc.dimensions['STRING4'].size - len(state)
+    state = state + M*' '
+    state = np.array(['{}'.format(let).encode('utf-8') for let in state])
+    data_state_indicator[0,:] = state
+    D_nc['DATA_STATE_INDICATOR'][:] = data_state_indicator
+    
     sys.stdout.write('done\n')
 
     R_nc.close()
