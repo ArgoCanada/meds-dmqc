@@ -11,7 +11,7 @@ import bgcArgoDMQC as bgc
 # float ID
 wmo = 4900497
 # date/time of DMQC
-dmqc_date = '20220202154200'
+dmqc_date = pd.Timestamp.now(tz='utc').strftime('%Y%m%d%H%M%S')
 
 # get gain from tracking spreadsheet
 tracker = pd.read_csv(Path('../dmqc_tracker.csv'))
@@ -97,13 +97,11 @@ for fn in R_files:
     D_nc['DOXY_ADJUSTED'][:] = doxy_adjusted
     D_nc['DOXY_ADJUSTED_QC'][:] = doxy_adjusted_qc
 
-    profile_doxy_qc = bgc.io.create_fillvalue_array(D_nc['PROFILE_DOXY_QC'])
     # populate PROFILE_DOXY_QC
     for i in range(D_nc.dimensions['N_PROF'].size):
         flags = bgc.io.read_qc(D_nc['DOXY_ADJUSTED_QC'][:].data[i,:])
         grade = bgc.profile_qc(pd.Series(flags)).encode('utf-8')
-        profile_doxy_qc[i] = grade
-    D_nc['PROFILE_DOXY_QC'][:] = profile_doxy_qc
+        D_nc['PROFILE_DOXY_QC'][i] = grade
 
     # get physical data for error calculation
     try:
@@ -131,6 +129,8 @@ for fn in R_files:
         HISTORY_DATE=dmqc_date,
         HISTORY_ACTION='O2QC'
     )
+
+    D_nc['DATE_UPDATE'][:] = bgc.io.string_to_array(dmqc_date, D_nc.dimensions['DATE_TIME'])
 
     bgc.io.update_history(D_nc, history_dict)
 
