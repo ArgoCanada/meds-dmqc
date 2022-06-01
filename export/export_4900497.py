@@ -26,6 +26,9 @@ orcid = '0000-0002-1756-422X'
 float_path = Path('/Users/GordonC/Documents/data/Argo/dac/meds') / str(wmo) / 'profiles'
 R_files = list(float_path.glob('BR*.nc'))
 
+# does this D mode file require that we iterate N_CALIB?
+new_calib = False
+
 # list of variables with N_CALIB as a dimension
 calib_vars = [
     'SCIENTIFIC_CALIB_COMMENT', 
@@ -42,20 +45,22 @@ for fn in R_files:
     # open the R file, we will use it later
     R_nc = Dataset(fn)
     # define path to file, make directory if it does not exist
-    D_file = Path(fn.as_posix().replace('BR', 'BD').replace('dac/meds/', 'dac/meds/D/'))
+    D_file = Path(fn.as_posix().replace('BR', 'BD').\
+        replace('dac/meds/', 'dac/meds/D/'))
     if not D_file.parent.exists():
         D_file.parent.mkdir(parents=True)
     sys.stdout.write(f'Working on D-mode file {D_file.as_posix()}...')
 
-    # if existing N_CALIB is empty, just fill it in, if not empty, add 1 to N_CALIB dimension
-    if bgc.io.check_for_empty_variables(fn, calib_vars):
+    # use new_calib as a flag to indicate whether to iterate N_CALIB or to just
+    # overwrite existing data
+    if not new_calib:
         D_nc = bgc.io.copy_netcdf(fn, D_file)
     else:
         D_nc = bgc.io.iterate_dimension(fn, D_file, 'N_CALIB')
-        # `PARAMETER` has `N_CALIB` dimension, so if we iterated in, fill in the last `N_CALIB`
-        # with the same values as the first dimension
+        # `PARAMETER` has `N_CALIB` dimension, so if we iterated in, fill in
+        # the last `N_CALIB` with the same values as the first dimension
         D_nc['PARAMETER'][:][:,-1,:,:] = D_nc['PARAMETER'][:][:,0,:,:]
-        last_calib = D_nc.dimensions['N_CALIB'].size-1
+    last_calib = D_nc.dimensions['N_CALIB'].size-1
 
     # -------------------------------------------------------------------------
     # Section 2 - fill in SCIENTIFIC_CALIB information
@@ -83,7 +88,8 @@ for fn in R_files:
     # populate DOXY_ADJUSTED
     doxy_adjusted = gain*D_nc['DOXY'][:].data
     doxy_adjusted_qc = D_nc['DOXY_QC'][:].data
-    # note - for some older files there are 0 flags meaning no QC, changing to 2 based on visual QC
+    # note - for some older files there are 0 flags meaning no QC, changing to
+    # 2 based on visual QC
     doxy_adjusted_qc[doxy_adjusted_qc == b'0'] = b'2'
     D_nc['DOXY_QC'][:] = doxy_adjusted_qc
     doxy_adjusted_qc[doxy_adjusted_qc == b'3'] = b'2'
