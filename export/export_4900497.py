@@ -110,10 +110,7 @@ for fn in R_files:
         D_nc['PROFILE_DOXY_QC'][i] = grade
 
     # get physical data for error calculation
-    try:
-        sprof_nc = Dataset(fn.as_posix().replace('BR', 'SR'))
-    except FileNotFoundError:
-        sprof_nc = Dataset(fn.as_posix().replace('BR', 'SD'))
+    sprof_nc = Dataset(fn.as_posix().replace('BR', 'SR').replace('BR', 'SD'))
 
     S = sprof_nc['PSAL'][:]
     T = sprof_nc['TEMP'][:]
