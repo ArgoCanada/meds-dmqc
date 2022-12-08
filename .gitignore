@@ -130,3 +130,6 @@ dmypy.json
 
 # custom
 tool_*
+
+# argo file checker
+checker/
