@@ -24,14 +24,16 @@ jobs:
         run: |
           cd track
           python track.py
-      - name: check for changes
+      - name: Check for changes
         run: git status
-      - name: stage changed files
+      - name: Stage changed files
         run: git add .
-      - name: commit changed files
-        run: git commit -m "Auto updating DMQC tracker"
-      - name: fetch from main
+      - name: Commit changed files
+        run: |
+          git config --local user.name "cgrdn"
+          git commit -m "Auto updating DMQC tracker"
+      - name: Fetch from main
         run: git fetch origin main
-      - name: push code to main
+      - name: Push code to main
         run: git push origin HEAD:main
 
