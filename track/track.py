@@ -1,11 +1,20 @@
 
+import ftplib
 import pandas as pd
-import argopandas as argo
 
-ix = argo.bio_prof[:]
+
+ftp = ftplib.FTP('ftp.ifremer.fr')
+ftp.login()
+ftp.cwd('/ifremer/argo/')
+ix_fn = 'argo_bio-profile_index.txt.gz'
+lf = open(ix_fn, 'wb')
+ftp.retrbinary('RETR ' + ix_fn, lf.write)
+lf.close()
+
+ix = pd.read_csv(ix_fn, compression='gzip', header=8)
 ix = ix.loc[ix['institution'] == 'ME']
 all_bgc = ix.shape[0]
-dm = ix.subset_data_mode('D')
+dm = ix.loc[[f.split('/')[-1][:2] == 'BD' for f in ix.file]]
 dmqc_bgc = dm.shape[0]
 
 with open('bgc_dmqc_tracker.csv', 'a') as f:
