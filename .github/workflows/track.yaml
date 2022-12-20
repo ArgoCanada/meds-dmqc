@@ -1,8 +1,6 @@
 name: Track
 
-on:
-  schedule:
-    - cron: "2 * * * *"
+on: push
 
 jobs:
   track:
@@ -19,5 +17,7 @@ jobs:
           pip install pandas argopandas
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run tracking
-        run: python ../../track/track.py
+        run: |
+          cd track
+          python track.py
 
