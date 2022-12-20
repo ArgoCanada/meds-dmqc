@@ -1,10 +1,8 @@
 name: Track
 
-on: push
-
-# on:
-  # schedule:
-    # - cron: "0 4 * * *"
+on:
+  schedule:
+    - cron: "0 5 * * *"
 
 jobs:
   track:
@@ -31,7 +29,7 @@ jobs:
       - name: Commit changed files
         run: |
           git config --local user.name "cgrdn"
-          git commit -m "Auto updating DMQC tracker"
+          git commit -m "Auto updating DMQC tracker via cron job"
       - name: Fetch from main
         run: git fetch origin main
       - name: Push code to main
