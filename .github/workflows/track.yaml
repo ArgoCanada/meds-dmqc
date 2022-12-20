@@ -2,6 +2,10 @@ name: Track
 
 on: push
 
+# on:
+  # schedule:
+    # - cron: "0 4 * * *"
+
 jobs:
   track:
     runs-on: ubuntu-latest
