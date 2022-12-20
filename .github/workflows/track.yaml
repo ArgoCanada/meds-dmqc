@@ -10,9 +10,9 @@ jobs:
   track:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.7
       - name: Install dependencies
@@ -24,4 +24,14 @@ jobs:
         run: |
           cd track
           python track.py
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git commit -m "Auto updating DMQC tracker"
+      - name: fetch from main
+        run: git fetch origin main
+      - name: push code to main
+        run: git push origin HEAD:main
 
