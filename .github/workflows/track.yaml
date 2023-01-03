@@ -28,8 +28,8 @@ jobs:
         run: git add .
       - name: Commit changed files
         run: |
-          git config --global user.email "chris.gordon@dfo-mpo.gc.ca"
-          git config --global user.name "Chris Gordon"
+          git config --local user.email "argo.canada.bot@gmail.com"
+          git config --local user.name "Argo Canada Bot"
           git commit -m "Auto updating DMQC tracker via cron job"
       - name: Fetch from main
         run: git fetch origin main
