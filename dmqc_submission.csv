@@ -1,0 +1,7 @@
+WMO,submission_date,gain,gain_method,float_model,float_status,last_cycle_date,action_type,comment
+4901784,Jan 7 2023,1.047,WOA,NOVA,Inactive,Nov 30 2021,a-to-d-mode,some points in audit resolved
+4900497,,1.032,WOA,APEX,,,r-to-d-mode,
+4901139,,na,WOA,,,,a-to-d-mode,visually inspected - no change in gain applied by Henry Bittig
+4901140,,1.117,WOA,,,,edit,already in d-mode but some points flagged by audit
+4901141,,1.061,WOA,,,,edit,already in d-mode but bad gain applied
+4900881,,1.056,WOA,,,,a-to-d-mode,some points flagged in audit are fine I believe - message Josh about this
