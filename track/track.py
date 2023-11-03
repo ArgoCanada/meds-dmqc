@@ -17,11 +17,17 @@ all_bgc = ix.shape[0]
 dm = ix.loc[[f.split('/')[-1][:2] == 'BD' for f in ix.file]]
 dmqc_bgc = dm.shape[0]
 a_mode_doxy = 0
+mtime_only = 0
 for param, mode in zip(ix.parameters, ix.parameter_data_mode):
-    doxy_idx = param.split(' ').index('DOXY')
-    if mode[doxy_idx] == 'A':
-        a_mode_doxy += 1
+    if 'DOXY' not in param:
+        mtime_only += 1
+    else:
+        doxy_idx = param.split(' ').index('DOXY')
+        if mode[doxy_idx] == 'A':
+            a_mode_doxy += 1
+
+eligible_bgc = all_bgc - mtime_only
 
 with open('bgc_dmqc_tracker.csv', 'a') as f:
     today = pd.Timestamp('now').strftime('%Y-%m-%d')
-    f.write(f'\n{today},{all_bgc},{dmqc_bgc},{100*dmqc_bgc/all_bgc},{a_mode_doxy},{100*a_mode_doxy/all_bgc}')
+    f.write(f'\n{today},{all_bgc},{dmqc_bgc},{100*dmqc_bgc/eligible_bgc},{a_mode_doxy},{100*a_mode_doxy/eligible_bgc},{eligible_bgc}')
